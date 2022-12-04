@@ -2,8 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style-type: none;
     text-decoration: none;
+    list-style-type: none;
 }
 
 body{
@@ -22,7 +22,7 @@ body{
 /*LE MAIN*/
 main{
     width: 1024px;
-    height: 5000px;
+    height: 3400px;
     background-color: white;
     margin: 0 auto;
     border-radius: 20px;
@@ -97,7 +97,7 @@ main{
 /*FORMATION*/
 .formation{
     text-align: center;
-    height: 15%;
+    height: 19%;
     margin-top: 15%;
     background-color:#eeeef7;
 }
@@ -106,18 +106,21 @@ main{
    font-weight: bold;
    color: #190f33;
    height: 200px;
-   line-height: 200px;
+   line-height: 110px;
 }
 .formation p{
     font-size: 20px;
+    margin-top: -7%;
 }
 .logo{   
    text-align: center;
-   margin-top: -47%;
+   margin-top: -40%;
+   display: flex;
+   justify-content: space-around;
 }
 .souslogo{
-    position: relative;
-    margin-top: 7%;
+
+    margin-top: 2%;
     text-align: center;
     font-size: 20px;
 }
@@ -125,19 +128,119 @@ main{
     color: #190f33;
 }
 .logo2{
-  
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    margin-top: 8%;
+    margin-top: 15%;
 }
 /*PROJETS*/
 .projet{
-    border: 2px solid black;
-    width: 800px;
     text-align: center;
-
+    margin-top: 15%;
+    margin-left: 5% ;
 }
 .projet h2{
     color:#190f33;
     font-size: 30px;
     font-weight: bold;
+    line-height: 120px;
+}
+.projet p{
+    font-size: 20px ;
+}
+/*IMAGE PROJETS*/
+.trip{
+    margin-left: 80px;
+    margin-top: 10%; 
+}
+.leg{
+    margin-left: 60%;
+    margin-top: -19%;
+}
+.leg h2{
+    font-size: 30px;
+    font-weight: bold;   
+    line-height: 50px;
+}
+.leg h4{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+/*2e IMAGE*/
+.trip2{
+    margin-left: 80px;
+    margin-top: 20%;
+}
+.leg2{
+    margin-left: 60%;
+    margin-top: -19%;
+}
+.leg2 h2{
+    font-size: 30px;
+    font-weight: bold;   
+    line-height: 50px;
+}
+.leg2 h4{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+/*Contact*/
+.contact{
+    background: #eeeef7;
+    height: 400px;
+    margin-top: 25%;
+    text-align: center;
+}
+.contact h2{
+    text-align: center;
+    line-height: 170px;
+    font-size: 48px;
+    font-weight:bold  
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.mail p{
+    font-size: 18px;
+}
+.mail img{
+    margin-right: 20px;
+}
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 100px;
+    margin-top: 3%;
+}
+.linkedin img{
+    margin-right: 20px;
+}
+.linkedin a:hover{
+    color: #5c48d2;
+}
+.linkedin a{
+    color: #190f33;
+    font-size: 18px;
+}
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 100px;
+    margin-top: 3%;
+}
+.github img{
+    margin-right: 20px;
+}
+.github a{
+    color: #190f33;
+    font-size: 18px;
+}
+.github a:hover{
+    color: #5c48d2;
 }
